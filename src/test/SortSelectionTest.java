@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import sorting.Selection;
 
-public class SortTest {
+public class SortSelectionTest {
 
 	@Test
 	public void selectionSortShouldSortIntArray() {
