@@ -1,11 +1,11 @@
 package sorting;
 
 /** 
- * Sorts arrays using selection sort
+ * Sorts arrays using insertion sort
  * 
  * @author Christopher McIntyre (chrsintyre)
  */
-public class Selection {
+public class Insertion {
 	/**
 	 * Sorts array of integers lowest to highest
 	 * @param arr array to be sorted

@@ -3,39 +3,39 @@ import static org.junit.Assert.assertArrayEquals;
 
 import org.junit.Test;
 
-import sorting.Selection;
+import sorting.Insertion;
 
-public class SortSelectionTest {
+public class SortInsertionTest {
 
 	@Test
-	public void selectionSortShouldSortIntArray() {
+	public void insertionSortShouldSortIntArray() {
 		int[] arr = {5, 7, 2, 3, 5};
 		int[] expected = {2, 3, 5, 5, 7};
-        Selection.sort(arr);
+        Insertion.sort(arr);
         assertArrayEquals(expected, arr);
 	}
 	
 	@Test
-	public void selectionReverseSortShouldSortIntArray() {
+	public void insertionReverseSortShouldSortIntArray() {
 		int[] arr = {5, 7, 2, 3, 5};
 		int[] expected = {7, 5, 5, 3, 2};
-        Selection.reverseSort(arr);
+        Insertion.reverseSort(arr);
         assertArrayEquals(expected, arr);
 	}
 	
 	@Test
-	public void selectionSortShouldSortStringArray() {
+	public void insertionSortShouldSortStringArray() {
 		String[] arr = {"I", "am", "an", "array", "lol"};
 		String[] expected = {"am", "an", "array", "I", "lol"};
-		Selection.sort(arr);
+		Insertion.sort(arr);
         assertArrayEquals(expected, arr);
 	}
 
 	@Test
-	public void selectionReverseSortShouldSortStringArray() {
+	public void insertionReverseSortShouldSortStringArray() {
 		String[] arr = {"I", "am", "an", "array", "lol"};
 		String[] expected = {"lol", "I", "array", "an", "am"};
-		Selection.reverseSort(arr);
+		Insertion.reverseSort(arr);
         assertArrayEquals(expected, arr);
 	}
 }
