@@ -14,6 +14,14 @@ public class SortTest {
         Selection.sort(arr);
         assertArrayEquals(expected, arr);
 	}
+	
+	@Test
+	public void selectionSortShouldSortStringArray() {
+		String[] arr = {"I", "am", "an", "array", "lol"};
+		String[] expected = {"am", "an", "array", "I", "lol"};
+		Selection.sort(arr);
+        assertArrayEquals(expected, arr);
+	}
 }
 
 
