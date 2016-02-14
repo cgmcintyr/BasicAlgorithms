@@ -1,9 +1,9 @@
 package sorting;
 
 /** 
- * Used to perform selections sorts on given arrays
+ * Sorts arrays using selection sort
+ * 
  * @author Christopher McIntyre (chrsintyre)
- *
  */
 public class Selection {
 	public static void sort(int[] arr) {
